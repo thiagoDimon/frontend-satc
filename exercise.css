@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+
+.geral {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.atendimento {
+    display: flex;
+    border: 1px solid black;
+    font-size: 8px;
+    font-weight: none;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    width: 500px;
+    color: purple;
+}
+
+.conteudo {
+    display: flex;
+    border: 1px solid black;
+    flex-direction: column;
+    height: 550px;
+    width: 500px;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 480px;
+    width: 488px;
+    margin-top: 1%;
+    margin-left: 1%;
+}
+.mensagemRecebida {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 25px;
+}
+
+.atendenteDiz {
+    display: flex;
+    margin-top: 2%;
+}
+
+.mensagemEnviada {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid black;
+    width: 300px;
+    height: 25px;
+}
+
+.voceDiz {
+    display: flex;
+    margin-top: 2%;
+}
+
+ .caixa1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2%;
+    margin-top: 30%;
+ }
+
+ .caixa2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 2%;
+    margin-top: 10%;
+    margin-bottom: 0%;
+ }
+
+ .textoBotao {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.inputMensagem {
+    display: flex;
+    height: 30px;
+    margin-top: 3.5%;
+    margin-left: 1%;
+}
+
+.enviarMensagem {
+    display: flex;
+    height: 30px;
+    margin-top: 3.5%;
+    margin-left: 3.6%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.botaoEnviar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    color: green;
+    font-size: 15px;
+}
