@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-.geral {
+#container {
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -28,7 +28,7 @@
     width: 500px;
 }
 
-.chat {
+#chat {
     display: flex;
     flex-direction: column;
     border: 1px solid black;
@@ -36,6 +36,8 @@
     width: 488px;
     margin-top: 1%;
     margin-left: 1%;
+    overflow: auto;
+    padding-bottom: 10px;
 }
 .mensagemRecebida {
     display: flex;
@@ -73,7 +75,7 @@
     margin-top: 30%;
  }
 
- .caixa2 {
+ #caixa2 {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -103,7 +105,7 @@
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
-.botaoEnviar {
+#botaoEnviar {
     display: flex;
     justify-content: center;
     align-items: center;
